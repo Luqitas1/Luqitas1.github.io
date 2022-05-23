@@ -1,0 +1,69 @@
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.foto img{
+    border-radius: 100%;
+}
+.foto{
+ display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 75px;
+}
+
+.nome{
+font:bold;
+margin-top: 35px;
+display: flex;
+flex-direction: column;
+align-items: center
+
+}
+h2{
+font-size: 35px;
+}
+
+.botao1{
+padding:5% ;
+padding-right: 20%;
+padding-left: 20%;
+margin-top:50px;
+display: flex;
+flex-direction: column;
+align-content: center
+
+}
+.botao2{
+padding-right: 20%;
+padding-left: 20%;
+display: flex;
+flex-direction: column;
+align-content: center
+}
+input{
+    color: white;
+    background-color:rgb(56, 56, 138);
+    height: 50px;
+    border-radius: 5px;
+}
+
+div{
+display: flex;
+flex-direction: column;
+}
+
+.container{
+    padding: 10px;
+    align-items: flex-start;
+}
+.containertext{
+    padding: 10px;
+}
+.containerimg{
+    padding: 10px;
+}
+.containerimg img{
+ border-radius: 5px;
+}
